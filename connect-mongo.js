@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const DB_NAME = 'bookstore'
 
-const connectionString = `mongodb://localhost:27017/${DB_NAME}`
+const connectionString = `mongodb+srv://doanhtuan:doanhtuan98@cluster0.1kyns.mongodb.net/bookstore?retryWrites=true&w=majority`
 
 mongoose.connect(connectionString,
     {
